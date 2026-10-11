@@ -1,0 +1,17 @@
+turns at risk: 400842 | never came back: 0.395
+train turns: 316768 test turns: 84074
+k=1 horizon=8min auc=0.624 t=0.18 everyone=-0.05% model=0.21% oracle=1.35%
+k=2 horizon=12min auc=0.631 t=0.28 everyone=-0.34% model=0.27% oracle=2.04%
+k=3 horizon=16min auc=0.637 t=0.38 everyone=-0.89% model=0.22% oracle=2.35%
+k=4 horizon=20min auc=0.642 t=0.43 everyone=-1.53% model=0.13% oracle=2.50%
+k=6 horizon=28min auc=0.647 t=0.53 everyone=-2.95% model=0.04% oracle=2.57%
+k=8 horizon=36min auc=0.650 t=0.60 everyone=-4.40% model=0.02% oracle=2.53%
+k=12 horizon=52min auc=0.655 t=0.68 everyone=-7.32% model=-0.00% oracle=2.32%
+k=15 horizon=64min auc=0.657 t=0.70 everyone=-9.48% model=-0.03% oracle=2.14%
+
+best on train: 2 pings (12 min), threshold 0.28
+test days bill: $129,967
+ping everyone: $-445 (-0.34%)
+model:         $351 (0.27%)
+oracle:        $2,650 (2.04%)
+pinged 36.8% of quiet turns, 32.3% of them came back in time (base rate 23.7%)

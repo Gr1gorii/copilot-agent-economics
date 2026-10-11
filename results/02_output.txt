@@ -1,0 +1,20 @@
+sessions: 271932
+llm calls: 9055169
+total tokens: 636.3B, total cost: $507,359
+Input, cache miss: 14.2% of tokens, 53.5% of cost
+Input, cache hit: 85.0% of tokens, 32.0% of cost
+Output: 0.8% of tokens, 14.5% of cost
+{'Tool outputs (files, terminal, search)': 48.3, 'User messages and IDE context': 21.9, "Agent's earlier messages": 19.7, 'System prompt and instructions': 10.1}
+count    271932.000000
+mean          1.865758
+std           4.955038
+min           0.000102
+50%           0.466903
+90%           4.631885
+99%          20.152492
+max         498.566769
+Name: cost, dtype: float64
+top 1% of sessions -> 19.3% of cost
+top 5% of sessions -> 44.7% of cost
+top 10% of sessions -> 60.7% of cost
+top 20% of sessions -> 77.8% of cost

@@ -1,0 +1,7 @@
+metric,method,change_to_detect,sessions_per_group
+cost per session,All sessions,-7.8%,18100
+cost per session,All sessions + CUPED,-7.8%,11400
+cost per session,Only sessions where the rule fires,-7.8%,12200
+cost per session,Only sessions where the rule fires + CUPED,-7.8%,9000
+turns per session (guardrail),only sessions where the rule fires + CUPED,+2%,155200
+sessions with a user cancel (guardrail),only sessions where the rule fires,+5% relative,74400

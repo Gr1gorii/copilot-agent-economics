@@ -1,0 +1,35 @@
+kind
+same_turn    7926323
+new_turn      801853
+first         271932
+switch         55061
+Name: count, dtype: int64
+      model  new_turns  hit_warm  hit_after_5min  keeps_cache
+    Model A     192684  0.745615        0.060328        False
+    Model F      96930  0.798398        0.430164         True
+    Model B      96079  0.682387        0.045426        False
+    Model C      88654  0.691671        0.036496        False
+    Model D      86318  0.825607        0.728737         True
+    Model E      53151  0.647376        0.031224        False
+    Model I      43346  0.823423        0.711659         True
+    Model G      37620  0.728208        0.029829        False
+    Model H      30937  0.734514        0.053676        False
+    Model K      16006  0.817835        0.511159         True
+    Model J      15625  0.788391        0.641686         True
+    Model L       9927  0.706138        0.016946        False
+    Model P       6543  0.925299        0.021343        False
+    Model N       5591  0.830871        0.735380         True
+    Model M       5364  0.568649        0.194501        False
+Model Other       4077  0.321348        0.158189        False
+    Model O       3400  0.823783        0.013369        False
+    Model T       2793  0.837819        0.023827        False
+    Model R       1993  0.723780        0.545569         True
+    Model Q       1791  0.678523        0.434296         True
+    Model X       1231  0.472284        0.274800         True
+share of cost by group: {'long': 0.252, 'other': 0.006, 'short': 0.741}
+short {0: 74.7, 1: 72.8, 2: 69.4, 3: 66.5, 4: 56.8, 5: 12.8, 6: 6.5, 7: 5.5, 8: 5.3, 9: 4.7, 10: 4.4, 11: 4.6, 12: 4.2, 13: 4.4, 14: 4.0, 15: 4.1, 16: 3.9, 17: 4.0, 18: 4.1, 19: 4.0}
+long {0: 84.6, 1: 80.9, 2: 78.9, 3: 76.9, 4: 76.5, 5: 70.5, 6: 69.4, 7: 70.3, 8: 67.2, 9: 67.3, 10: 67.0, 11: 64.8, 12: 63.4, 13: 65.6, 14: 60.3, 15: 61.3, 16: 60.0, 17: 59.6, 18: 58.1, 19: 57.7}
+sessions with a model switch: 7.2%
+hit rate after switch: 18.0%
+idle > 5 min on short cache models: 202940 turns, extra $30,042 = 5.9% of total cost
+model switches: 40029 calls, extra $3,522 = 0.7% of total cost

@@ -1,0 +1,24 @@
+cold restarts: 202940
+cache hit on them: 5.4%
+tool outputs in their context: 33.1%
+
+whole week: saving $48,405 = 9.5% of $507,359
+only on the cold restart calls: 2.5%
+tokens removed: 11.4% of all input tokens
+
+cleanups by copilot at turn start: 6980 (in 4990 sessions)
+tool tokens removed per cleanup: 44,949
+read again in the next 10 calls: 18.0% of removed (95% CI 15.9% to 19.7%)
+
+test days, measured re-read: 7.7% of the bill (95% CI 7.5% to 7.9%)
+test days, if 0% is read again: 9.4% of the bill
+test days, if 25% is read again: 7.0% of the bill
+test days, if 50% is read again: 4.7% of the bill
+                                       fix  saving_pct_of_bill
+0                      keep warm, everyone           -0.342145
+1                         keep warm, model            0.270234
+2             keep warm, perfect foresight            2.039017
+3  drop old tool outputs, measured re-read            7.687195
+4        drop old tool outputs, 0% re-read            9.369236
+5       drop old tool outputs, 25% re-read            7.026927
+6       drop old tool outputs, 50% re-read            4.684618

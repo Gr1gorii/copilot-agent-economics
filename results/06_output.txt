@@ -1,0 +1,24 @@
+sessions: 271932, the rule fires in 25.9% of them, they make 62% of the cost
+effect: -7.8% on all sessions, -12.6% on sessions where the rule fires
+corr(cost, cost before the rule fires): all 0.61, rule fires 0.51
+
+A/A test, false positive rate:
+  All sessions: 4.4%
+  All sessions + CUPED: 4.1%
+  Only sessions where the rule fires: 4.4%
+  Only sessions where the rule fires + CUPED: 4.4%
+n=1000: power All sessions 0.09, All sessions + CUPED 0.14, Only sessions where the rule fires 0.14, Only sessions where the rule fires + CUPED 0.20
+n=2000: power All sessions 0.19, All sessions + CUPED 0.27, Only sessions where the rule fires 0.28, Only sessions where the rule fires + CUPED 0.33
+n=5000: power All sessions 0.34, All sessions + CUPED 0.54, Only sessions where the rule fires 0.52, Only sessions where the rule fires + CUPED 0.66
+n=10000: power All sessions 0.57, All sessions + CUPED 0.78, Only sessions where the rule fires 0.79, Only sessions where the rule fires + CUPED 0.87
+n=20000: power All sessions 0.88, All sessions + CUPED 0.97, Only sessions where the rule fires 0.97, Only sessions where the rule fires + CUPED 0.99
+n=40000: power All sessions 0.99, All sessions + CUPED 1.00, Only sessions where the rule fires 1.00, Only sessions where the rule fires + CUPED 1.00
+
+guardrails on sessions where the rule fires: turns 8.2 (corr with turns before the rule fires 0.42), user cancel 24.5%
+                                 metric                                     method change_to_detect  sessions_per_group
+                       cost per session                               All sessions            -7.8%               18100
+                       cost per session                       All sessions + CUPED            -7.8%               11400
+                       cost per session         Only sessions where the rule fires            -7.8%               12200
+                       cost per session Only sessions where the rule fires + CUPED            -7.8%                9000
+          turns per session (guardrail) only sessions where the rule fires + CUPED              +2%              155200
+sessions with a user cancel (guardrail)         only sessions where the rule fires     +5% relative               74400
