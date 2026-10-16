@@ -1,5 +1,7 @@
 **English** | [Italiano](README_IT.md)
 
+Published report: [copilot-agent-economics](https://gr1gorii.github.io/copilot-agent-economics/)
+
 # The 5 minute cliff: what user breaks cost an AI coding agent
 
 I analyzed 301k real sessions of the GitHub Copilot coding agent (June 2026, published by Microsoft in October 2026) to answer one question: where does the money go, and what is the cheapest way to spend less of it?

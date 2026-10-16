@@ -1,5 +1,7 @@
 [English](README.md) | **Italiano**
 
+Rapporto online: [copilot-agent-economics](https://gr1gorii.github.io/copilot-agent-economics/)
+
 # Il precipizio dei 5 minuti: quanto costano le pause dell'utente a un agente di coding AI
 
 Ho analizzato 301 mila sessioni reali dell'agente di coding di GitHub Copilot (giugno 2026, pubblicate da Microsoft a ottobre 2026) per rispondere a una domanda: dove vanno i soldi e qual è il modo più economico per spenderne meno?
